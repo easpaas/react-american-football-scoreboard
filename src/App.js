@@ -8,10 +8,6 @@ function App() {
   const [lionsScore, setLionsScore] = useState(0);
   const [tigersScore, setTigersScore] = useState(0);
 
-  // where am i going with this - i want to reset both home/away score with one button (game over)
-  
-  const [gameScore, setGameScore] = useState(lionsScore + tigersScore);
-
   return (
     <div className="container">
       <section className="scoreboard">
