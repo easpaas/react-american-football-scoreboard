@@ -119,3 +119,9 @@
   margin: 1rem;
   border-radius: 4px;
 }
+.reset_button {
+  margin: 1rem;
+  height: 13vh;
+  border: 2px solid green;
+  border-radius: 2em;
+}
